@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  min-height: 100vh;
+  background-color: #404eed;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 40px;
+}
+
+.logo {
+  height: 32px;
+  width: auto;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.btn-login {
+  background: white;
+  color: #404eed;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.btn-login:hover {
+  background: #dde1f9;
+}
+
+.menu-icon {
+  height: 24px;
+  display: none;
+  cursor: pointer;
+}
+
+/* Hero Content */
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 80px 20px 40px;
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.hero-content h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 1.1;
+  margin-bottom: 24px;
+}
+
+.hero-content p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.15rem;
+  line-height: 1.7;
+  margin-bottom: 32px;
+}
+
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.btn-primary {
+  background: #23272a;
+  color: white;
+  padding: 16px 32px;
+  border-radius: 28px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 1.05rem;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.btn-primary:hover {
+  background: #36393f;
+}
+
+.btn-secondary {
+  background: white;
+  color: #404eed;
+  padding: 16px 32px;
+  border-radius: 28px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 1.05rem;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.btn-secondary:hover {
+  background: #dde1f9;
+  color: #404eed;
+}
